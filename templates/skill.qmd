@@ -1,0 +1,36 @@
+---
+title: "[ISI JUDUL]"
+id: "[ISI ID]"
+type: skills
+theme: "[ISI TEMA]"
+owner: "[ISI TIM]"
+priority: P1
+status: draft
+ai_usage: "[ISI]"
+---
+
+## Target kompetensi dan prasyarat
+[ISI]
+
+## Persiapan alat, data, dan izin
+[ISI]
+
+## Langkah praktik
+1. [ISI]
+2. [ISI]
+3. [ISI]
+
+## Contoh input-output, kode, dan demonstrasi
+[ISI, cantumkan tautan notebook jika diperlukan]
+
+## Uji keberhasilan dan troubleshooting
+[ISI]
+
+## Latihan mandiri dan rubrik
+[ISI]
+
+## Sumber dan batasan AI
+[ISI]
+
+## Catatan uji pengguna dan review
+[ISI]

@@ -1,0 +1,35 @@
+---
+title: "[ISI JUDUL]"
+id: "[ISI ID]"
+type: prompts
+theme: "[ISI TEMA]"
+owner: "[ISI TIM]"
+priority: P1
+status: draft
+ai_usage: "AI dimanfaatkan untuk tugas terbatas; keputusan diverifikasi manusia"
+---
+
+## Tujuan dan batas penggunaan
+[ISI]
+
+## Prompt versi 0.1
+```text
+Peran: [ISI]
+Konteks yang aman dibagikan: [ISI]
+Tugas: [ISI]
+Batasan/larangan: jangan mengarang fakta, sumber, atau kepastian.
+Format keluaran: [ISI]
+Minta klarifikasi bila informasi penting kurang.
+```
+
+## Contoh input / keluaran (uji, bukan karangan)
+[ISI]
+
+## Kriteria validasi
+[ISI cara menguji keluaran AI terhadap referensi/hasil yang benar]
+
+## Risiko, privasi, dan tinjauan manusia
+[ISI]
+
+## Versi, hasil review, dan perubahan
+[ISI]

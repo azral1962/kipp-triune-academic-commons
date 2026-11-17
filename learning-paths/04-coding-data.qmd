@@ -1,0 +1,37 @@
+---
+title: "Alur Belajar — AI for Coding & Data Analysis"
+---
+
+# AI for Coding & Data Analysis
+
+**Durasi:** [ISI estimasi] · **Tingkat:** [ISI] · **Status:** DRAFT
+
+## Sasaran kompetensi
+[ISI satu unjuk kemampuan yang dapat diperiksa oleh rekan.]
+
+## Prasyarat
+[ISI]
+
+## TAIDA sebagai perjalanan pengguna
+
+1. **Target** — [ISI perubahan kompetensi yang terukur].
+2. **Attention** — [ISI masalah atau contoh yang menarik].
+3. **Interest** — [ISI relevansi bagi pengguna].
+4. **Desire** — [ISI manfaat yang realistis].
+5. **Action** — [ISI latihan/unjuk kinerja dan refleksi].
+
+## Urutan artefak
+
+- [K-C01 — Pemrograman berbantuan AI dan debugging](../topics/04-coding-data/01-knowledge/04-01-01-k-c01.qmd)
+- [K-C02 — Analisis data, validasi, dan reproduksibilitas](../topics/04-coding-data/01-knowledge/04-01-02-k-c02.qmd)
+- [S-C01 — Notebook Python dari masalah ke pengujian](../topics/04-coding-data/02-skills/04-02-01-s-c01.qmd)
+- [S-C02 — Notebook Pandas dan Matplotlib](../topics/04-coding-data/02-skills/04-02-02-s-c02.qmd)
+- [P-C01 — Coding Tutor and Debugging Assistant](../topics/04-coding-data/03-ai-prompts/04-03-01-p-c01.qmd)
+- [P-C02 — Data Analysis and Result Verification](../topics/04-coding-data/03-ai-prompts/04-03-02-p-c02.qmd)
+- [C-C01 — Analisis dataset akademik dengan verifikasi](../topics/04-coding-data/04-case-studies/04-04-01-c-c01.qmd)
+
+## Asesmen dan umpan balik
+[ISI tugas integratif dan rubrik; tautkan forum/PR hasil uji.]
+
+## Bukti penggunaan
+[ISI penguji, hasil, revisi, dan batasan.]

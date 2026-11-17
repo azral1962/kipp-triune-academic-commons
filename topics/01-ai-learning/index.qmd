@@ -1,0 +1,23 @@
+---
+title: "AI for Learning"
+---
+
+# AI for Learning
+
+**Penanggung jawab:** Tim 01–02.  
+**Status:** rancangan awal / draft.
+
+## Target pengguna
+[ISI hasil wawancara tentang kebutuhan belajar pada tema ini.]
+
+## Daftar artefak berdasarkan prioritas
+
+- [K-L01 — Prinsip belajar efektif menggunakan AI](01-knowledge/01-01-01-k-l01.qmd) · P0 · Tim 01
+- [K-L02 — Metakognisi, belajar aktif, dan uji pemahaman](01-knowledge/01-01-02-k-l02.qmd) · P0 · Tim 02
+- [S-L01 — Belajar satu konsep sulit dengan bantuan AI](02-skills/01-02-01-s-l01.qmd) · P1 · Tim 01
+- [S-L02 — Membuat latihan, kuis, dan umpan balik formatif](02-skills/01-02-02-s-l02.qmd) · P1 · Tim 02
+- [P-L01 — Socratic AI Tutor](03-ai-prompts/01-03-01-p-l01.qmd) · P1 · Tim 01
+- [P-L02 — Penguji pemahaman dan miskonsepsi](03-ai-prompts/01-03-02-p-l02.qmd) · P1 · Tim 02
+- [C-L01 — Mengukur peningkatan pemahaman satu konsep](04-case-studies/01-04-01-c-l01.qmd) · P2 · Tim 01+02
+
+Lihat [alur belajar tema ini](../../learning-paths/01-ai-learning.qmd).

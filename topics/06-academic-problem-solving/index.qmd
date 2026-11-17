@@ -1,0 +1,23 @@
+---
+title: "AI for Academic Problem Solving"
+---
+
+# AI for Academic Problem Solving
+
+**Penanggung jawab:** Tim 11–12.  
+**Status:** rancangan awal / draft.
+
+## Target pengguna
+[ISI hasil wawancara tentang kebutuhan belajar pada tema ini.]
+
+## Daftar artefak berdasarkan prioritas
+
+- [K-P01 — Problem framing dan identifikasi kebutuhan](01-knowledge/06-01-01-k-p01.qmd) · P0 · Tim 11
+- [K-P02 — Alternatif solusi, keputusan, dan evaluasi nilai](01-knowledge/06-01-02-k-p02.qmd) · P0 · Tim 12
+- [S-P01 — Analisis masalah berbantuan AI](02-skills/06-02-01-s-p01.qmd) · P1 · Tim 11
+- [S-P02 — Decision matrix, simulasi, dan risiko](02-skills/06-02-02-s-p02.qmd) · P1 · Tim 12
+- [P-P01 — Problem Framing and Root Cause Analyst](03-ai-prompts/06-03-01-p-p01.qmd) · P1 · Tim 11
+- [P-P02 — Solution Critic and Decision Support](03-ai-prompts/06-03-02-p-p02.qmd) · P1 · Tim 12
+- [C-P01 — Solusi untuk masalah nyata kehidupan akademik](04-case-studies/06-04-01-c-p01.qmd) · P2 · Tim 11+12
+
+Lihat [alur belajar tema ini](../../learning-paths/06-academic-problem-solving.qmd).

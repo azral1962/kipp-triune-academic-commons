@@ -1,0 +1,22 @@
+name: Validate source artifacts
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate artifact structure
+        run: python scripts/check_artifacts.py
+      - name: Validate generated catalog is current
+        run: |
+          python scripts/build_catalog.py
+          git diff --exit-code -- catalog.qmd
+      - name: Validate portal manifest and links
+        run: python scripts/check_portal.py

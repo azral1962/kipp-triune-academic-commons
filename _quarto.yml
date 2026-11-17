@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "**/*.{qmd,md,ipynb}"
+    - "!docs/student-workflow.qmd"
+
+website:
+  title: "KIPP Triune Academic Commons"
+  description: "AI for Academic Work — Pilot KIPP"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Beranda
+      - href: catalog.qmd
+        text: Katalog
+      - href: learning-paths/index.qmd
+        text: Alur Belajar
+      - href: forum/index.qmd
+        text: Forum
+      - href: docs/project-guide.qmd
+        text: Panduan Proyek
+      - href: docs/student-workflow.md
+        text: Git & GitHub
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - section: "Tema"
+        contents:
+          - topics/01-ai-learning/index.qmd
+          - topics/02-literature-research/index.qmd
+          - topics/03-academic-writing/index.qmd
+          - topics/04-coding-data/index.qmd
+          - topics/05-visualization-presentation/index.qmd
+          - topics/06-academic-problem-solving/index.qmd
+      - section: "Learning Paths"
+        contents:
+          - learning-paths/index.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: false
+    code-copy: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

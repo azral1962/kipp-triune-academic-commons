@@ -1,0 +1,47 @@
+---
+title: "Solution Critic and Decision Support"
+id: "P-P02"
+index_code: "06.03.02"
+type: "prompts"
+theme: "problem-solving"
+owner: "Tim 12"
+priority: P1
+status: draft
+ai_usage: "Belum diisi; wajib dijelaskan sebelum review"
+---
+
+## Tujuan, pengguna, dan batasan
+[ISI: kondisi penggunaan aman untuk **Solution Critic and Decision Support**.]
+
+## Prompt siap dikustomisasi
+```text
+Anda adalah asisten pendamping akademik untuk: Solution Critic and Decision Support.
+Konteks pengguna: [ISI, TANPA DATA PRIBADI].
+Tujuan belajar / tugas: [ISI].
+Bahan referensi yang diberikan: [ISI].
+Tugas Anda: membantu pengguna mengeksplorasi langkah, alternatif, dan pertanyaan kritis.
+Jangan mengarang sumber, data, kutipan, hasil eksperimen, atau kepastian.
+Pisahkan fakta terverifikasi, asumsi, dan hipotesis.
+Jika data kurang, jelaskan apa yang perlu diperiksa oleh manusia.
+Format jawaban yang diminta: [ISI].
+```
+
+## Contoh input dan output aktual
+[ISI: lakukan uji nyata, beri tanggal/model jika dapat dibagikan.]
+
+## Pengujian dan baseline
+[ISI: setidaknya 2 contoh normal + 1 contoh bermasalah, apa yang gagal.]
+
+## Risiko dan pemeriksaan manusia
+[ISI: privasi, bias, ketidakakuratan, cara memutuskan.]
+
+## Catatan penggunaan AI dan etika
+[ISI: peran AI, model/alur jika diketahui, pengecekan manusia, data yang tidak dibagikan.]
+
+## Peer review, uji pengguna, dan refleksi
+- Reviewer dari tim lain: [ISI]
+- Bukti uji: [ISI]
+- Temuan dan revisi: [ISI]
+- Tautan PR/Issue: [ISI]
+
+> **Status DRAFT:** berkas ini merupakan kerangka awal. Belum ada validasi isi atau pengujian oleh mahasiswa.

@@ -1,0 +1,45 @@
+---
+title: "Notebook Python dari masalah ke pengujian"
+id: "S-C01"
+index_code: "04.02.01"
+type: "skills"
+theme: "coding-data"
+owner: "Tim 07"
+priority: P1
+status: draft
+ai_usage: "Belum diisi; wajib dijelaskan sebelum review"
+---
+
+## Kompetensi yang dihasilkan
+[ISI: pengguna dapat mendemonstrasikan **notebook python dari masalah ke pengujian**.]
+
+## Prasyarat dan alat
+[ISI: prasyarat, alat gratis, versi, dan data aman.]
+
+## Prosedur praktikum
+1. [ISI]
+2. [ISI]
+3. [ISI]
+
+## Contoh masukan dan hasil
+[ISI: screenshot/tautan notebook/kode yang telah diuji.]
+
+## Troubleshooting dan verifikasi
+[ISI: kondisi berhasil, kesalahan umum, cara memeriksa.]
+
+## Latihan mandiri
+[ISI: tugas, rubrik, dan jawaban acuan atau kriteria evaluasi.]
+
+## Sumber dan izin penggunaan
+[ISI]
+
+## Catatan penggunaan AI dan etika
+[ISI: peran AI, model/alur jika diketahui, pengecekan manusia, data yang tidak dibagikan.]
+
+## Peer review, uji pengguna, dan refleksi
+- Reviewer dari tim lain: [ISI]
+- Bukti uji: [ISI]
+- Temuan dan revisi: [ISI]
+- Tautan PR/Issue: [ISI]
+
+> **Status DRAFT:** berkas ini merupakan kerangka awal. Belum ada validasi isi atau pengujian oleh mahasiswa.

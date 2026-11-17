@@ -1,0 +1,14 @@
+---
+title: "Panduan Proyek 3 Minggu"
+---
+
+## Tujuan
+Membangun Academic Starter Kit melalui kolaborasi berbasis komunikasi KIPP dan strategi TAIDA.
+
+| Minggu | Fokus | Bukti |
+|---|---|---|
+| 1 | Discover & Design (P0) | kebutuhan pengguna, charter, 12 pengetahuan |
+| 2 | Build & Collaborate (P1) | 12 tutorial, 12 prompt, peer review |
+| 3 | Validate & Publish (P2) | 6 kasus, uji pengguna, showcase |
+
+Panduan rinci ada di [`docs/workflow.md`](workflow.md). Standar kualitas ada di [`QUALITY_GATE.md`](../QUALITY_GATE.md).

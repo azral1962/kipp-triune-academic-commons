@@ -1,0 +1,23 @@
+---
+title: "AI for Academic Writing"
+---
+
+# AI for Academic Writing
+
+**Penanggung jawab:** Tim 05–06.  
+**Status:** rancangan awal / draft.
+
+## Target pengguna
+[ISI hasil wawancara tentang kebutuhan belajar pada tema ini.]
+
+## Daftar artefak berdasarkan prioritas
+
+- [K-W01 — Struktur karya ilmiah dan argumentasi](01-knowledge/03-01-01-k-w01.qmd) · P0 · Tim 05
+- [K-W02 — Integritas akademik, sitasi, dan atribusi AI](01-knowledge/03-01-02-k-w02.qmd) · P0 · Tim 06
+- [S-W01 — Membuat outline dari pertanyaan penelitian](02-skills/03-02-01-s-w01.qmd) · P1 · Tim 05
+- [S-W02 — Revisi paragraf, koherensi, dan argumentasi](02-skills/03-02-02-s-w02.qmd) · P1 · Tim 06
+- [P-W01 — Academic Outline Coach](03-ai-prompts/03-03-01-p-w01.qmd) · P1 · Tim 05
+- [P-W02 — Critical Writing Reviewer](03-ai-prompts/03-03-02-p-w02.qmd) · P1 · Tim 06
+- [C-W01 — Revisi draf dengan jejak perbaikan](04-case-studies/03-04-01-c-w01.qmd) · P2 · Tim 05+06
+
+Lihat [alur belajar tema ini](../../learning-paths/03-academic-writing.qmd).

@@ -1,0 +1,262 @@
+# Panduan Workflow Mahasiswa — KIPP Triune Academic Commons
+
+**AI for Academic Work | Pilot 3 minggu | 12 tim | 60+ mahasiswa**  
+**Versi:** 1.0 (panduan pelaksanaan) · **Sasaran:** mahasiswa pemula sampai mahir Git
+
+> **Inti kerja:** pilih artefak → pahami kebutuhan pengguna → buat branch → isi dan uji → commit & push → Pull Request → peer review silang → revisi → merge oleh koordinator → publikasi → refleksi.
+
+## 0. Apa yang harus disiapkan?
+
+- Akun [GitHub](https://github.com/) pribadi, email yang dapat diakses dan autentikasi dua faktor (2FA) bila diwajibkan.
+- Link **repositori resmi yang diumumkan dosen/koordinator**. Jangan menganggap ada alamat GitHub tertentu sebelum diumumkan.
+- Tim dan ID artefak pada `governance/team-roster.csv` dan `ARTIFACT_REGISTER.csv`.
+- Untuk jalur terminal: [Git](https://git-scm.com/downloads); editor seperti VS Code; Python 3 untuk validasi; [Quarto](https://quarto.org/docs/get-started/) untuk preview situs (opsional bagi penulis konten).
+- **Alternatif tanpa terminal:** cukup browser GitHub untuk mengubah teks `.qmd` dan membuka Pull Request. GitHub Desktop juga dapat digunakan.
+
+**Keamanan:** jangan memasukkan password, access token, private key, data pribadi, isi percakapan sensitif, ataupun dokumen berhak cipta tanpa izin. Jangan mengunggah keluaran AI yang belum diperiksa. Jangan mempublikasikan nama/data responden wawancara.
+
+## 1. Peta berkas yang perlu dikenal
+
+| Lokasi | Fungsi | Siapa mengubah? |
+|---|---|---|
+| `ARTIFACT_REGISTER.csv` | Daftar 42 artefak, ID, prioritas dan tim | Koordinator; anggota hanya dengan persetujuan |
+| `topics/<tema>/knowledge/` | 12 modul konsep (P0) | Tim pemilik |
+| `topics/<tema>/skills/` | 12 tutorial keterampilan (P1) | Tim pemilik |
+| `topics/<tema>/prompts/` | 12 prompt yang diuji (P1) | Tim pemilik |
+| `topics/<tema>/cases/` | 6 kasus integratif (P2) | Pasangan tim |
+| `learning-paths/` | Enam rute belajar | Pasangan tim |
+| `templates/` | Format artefak, review, refleksi, uji pengguna | Seluruh mahasiswa membaca; perubahan melalui persetujuan |
+| `forum/` | Pedoman forum (diskusi aktual di GitHub Discussions) | Fasilitator |
+| `governance/` | Roster, keputusan, pembagian tanggung jawab | Koordinator |
+| `.github/` | Templat PR, Issues, otomatisasi | Koordinator teknis |
+| `scripts/` | Validasi metadata dan pembuatan katalog | Koordinator teknis |
+
+**Penting:** berkas artefak sudah tersedia. **Edit berkas yang sesuai dengan ID Anda**; jangan membuat duplikat dengan ID baru. Pertahankan bagian metadata YAML di paling atas, termasuk `id`, `title`, `type`, `theme`, `owner`, `priority`, `status`, `ai_usage`.
+
+## 2. Pembagian kegiatan selama tiga minggu
+
+| Periode | Kegiatan mahasiswa | Bukti yang dikumpulkan |
+|---|---|---|
+| Hari 1–3 | Baca charter, pelajari GitHub, bentuk tim, wawancarai minimal 3 calon pengguna/tim | Pembagian tugas, kebutuhan pengguna tanpa identitas sensitif |
+| Hari 4–7 | Buat Issue/rencana, isi artefak P0 dan rancangan learning path | Commit, draf, umpan balik awal |
+| Hari 8–10 | Kembangkan tutorial dan prompt P1, demonstrasi/reproduksi | Contoh input-output, sumber, hasil uji |
+| Hari 11–14 | Ajukan PR dan peer review oleh **tim lain**, perbaiki | PR dan komentar review |
+| Hari 15–17 | Uji paket dengan minimal 2 pengguna di luar tim pembuat | Catatan uji dan masalah ditemukan |
+| Hari 18–19 | Revisi, review ulang, minta merge ke `main` | PR disetujui, validasi lulus |
+| Hari 20–21 | Showcase, evaluasi TAIDA, portofolio individu | Demo, refleksi, rencana perbaikan |
+
+**P0 harus lebih dulu benar daripada mengejar kuantitas P1/P2.** Jangan memberi status `reviewed` bila belum ada persetujuan dan bukti pengujian.
+
+## 3. Konsep Git dalam satu menit
+
+- **Git**: perangkat untuk mencatat sejarah perubahan file di komputer.
+- **GitHub**: layanan tempat repositori disimpan bersama secara daring.
+- **Repository (repo)**: folder proyek beserta riwayat perubahannya.
+- **Clone**: membuat salinan repo di komputer.
+- **Branch**: ruang kerja terpisah agar perubahan belum mengganggu `main`.
+- **Commit**: menyimpan titik perubahan dengan pesan bermakna.
+- **Push**: mengirim commit lokal ke GitHub.
+- **Pull**: mengambil pembaruan dari GitHub ke komputer.
+- **Pull Request (PR)**: usulan perubahan yang dapat diperiksa dan didiskusikan sebelum masuk `main`.
+- **Merge**: mengintegrasikan perubahan PR yang sudah disetujui.
+- **Issue**: kartu tugas atau pelacakan masalah.
+- **Discussions**: forum tanya jawab dan deliberasi (tidak sama dengan Issue).
+
+Aturan utama: **jangan bekerja langsung pada `main`**. Satu tugas/artefak kecil sebaiknya satu branch dan satu PR. Review lintas tim wajib; penulis tidak menyetujui PR miliknya sendiri.
+
+## 4. Jalur A — Tanpa terminal, langsung dari website GitHub
+
+Cocok untuk penulis materi, reviewer, dan mahasiswa yang baru mulai.
+
+1. Masuk GitHub dan buka repo resmi kelas. Pastikan Anda memiliki izin akses. Jika tombol edit tidak tersedia atau tidak boleh push, minta koordinator memberikan akses; bila diperlukan gunakan **Fork** dan ajukan PR dari fork.
+2. Pilih **Issues → New issue**; catat ID artefak, tujuan, target pengguna, penanggung jawab, dan tanggal target. Jika koordinator sudah membuat Issue, gunakan Issue itu; jangan membuat duplikat.
+3. Buka file artefak yang sudah tersedia, misalnya file `K-L01` pada `topics/01-ai-learning/01-knowledge/` (cari nama persisnya melalui `ARTIFACT_REGISTER.csv`).
+4. Klik ikon **Edit** (pensil). Bila GitHub menawarkan membuat branch baru saat commit, pilih opsi tersebut. Beri nama, contoh `tim-01/K-L01-konsep-tutor`.
+5. Isi bagian `[ISI]` dengan materi yang telah diperiksa; sertakan referensi, langkah latihan, batasan AI, dan rencana asesmen. Hindari mengubah metadata yang tidak diminta.
+6. Klik **Commit changes** dan pastikan perubahan disimpan ke **branch baru**, bukan `main`.
+7. Buka **Compare & pull request** (atau tab Pull requests → New pull request). Basis `main`, pembanding branch pekerjaan Anda. Isi judul, deskripsi, bukti uji, dan tautan Issue; minta reviewer dari tim lain.
+8. Reviewer membuka **Files changed**, memeriksa isi, memberi komentar/saran, lalu **Approve** atau **Request changes**. Jika ada revisi, penulis mengedit branch yang sama; PR akan terbarui otomatis.
+9. Koordinator mengintegrasikan PR **setelah** pemeriksaan lulus. Jangan tekan Merge tanpa hak/mandat.
+
+Jika berkas memerlukan kode dan notebook rumit, lebih mudah memakai Jalur B atau C.
+
+## 5. Jalur B — GitHub Desktop (tanpa perintah Git)
+
+1. Pasang [GitHub Desktop](https://desktop.github.com/) dan login.
+2. **File → Clone repository**, pilih repositori resmi dan folder lokal.
+3. **Current Branch → New Branch**; gunakan `tim-XX/ID-deskripsi`.
+4. Edit file dengan editor, simpan. Kembali ke Desktop: periksa perubahan, tulis **Summary** yang jelas, klik **Commit to ...**.
+5. Klik **Publish branch** atau **Push origin**, kemudian **Preview Pull Request / Create Pull Request**.
+6. Saat mengerjakan tugas baru setelah PR di-merge: kembali ke `main`, **Fetch origin**, **Pull origin**, lalu buat branch baru.
+
+**Jangan** memilih tombol yang menimpa/meniadakan perubahan orang lain tanpa berkonsultasi dengan koordinator.
+
+## 6. Jalur C — Terminal: perintah Git lengkap
+
+### 6.1 Sekali saja: instal dan konfigurasi
+
+Di Windows, gunakan Git Bash atau terminal VS Code; di macOS/Linux gunakan Terminal. Periksa instalasi:
+
+```bash
+git --version
+python --version
+```
+
+Konfigurasikan nama kontributor (gunakan identitas yang disetujui untuk publikasi):
+
+```bash
+git config --global user.name "Nama Kontributor"
+git config --global user.email "email-yang-terhubung-ke-GitHub"
+```
+
+Pada GitHub, HTTPS tidak menerima password akun sebagai password Git biasa; gunakan autentikasi melalui Git Credential Manager, GitHub Desktop, atau metode token/SSH yang sesuai. **Jangan pernah menempelkan token dalam file, perintah yang dibagikan, atau tangkapan layar.**
+
+### 6.2 Clone, sinkronisasi, dan buat branch
+
+Ganti URL contoh ini dengan URL repo resmi dari dosen:
+
+```bash
+git clone https://github.com/ORGANISASI/kipp-triune-academic-commons.git
+cd kipp-triune-academic-commons
+git switch main
+git pull --ff-only origin main
+git switch -c tim-03/K-R01-critical-reader
+```
+
+`tim-03/K-R01-critical-reader` hanya contoh. Gunakan ID yang ditetapkan tim Anda. **Jangan** menjalankan `git init` di dalam repo hasil clone.
+
+### 6.3 Edit, periksa, commit, dan push
+
+Edit berkas `.qmd` yang ditetapkan. Kemudian:
+
+```bash
+git status
+git diff
+python scripts/check_artifacts.py
+python scripts/build_catalog.py
+git add topics/02-literature-research/ catalog.qmd
+git commit -m "docs(K-R01): tambah panduan membaca paper kritis"
+git push -u origin tim-03/K-R01-critical-reader
+```
+
+`git add topics/02-literature-research/` hanya jika semua perubahan di folder tersebut memang milik tugas Anda. Lebih aman gunakan **path file spesifik** dari `git status` untuk menghindari berkas milik rekan. `catalog.qmd` ditambahkan bila berubah karena pembaruan katalog. Jangan `git add .` sebelum memeriksa apakah ada file rahasia atau file besar.
+
+Buka repo GitHub, klik **Compare & pull request**, lalu isi template PR. Jangan gunakan `git push --force` pada branch bersama tanpa koordinasi.
+
+### 6.4 Pembaruan berikutnya
+
+Setelah PR digabung, sebelum tugas baru:
+
+```bash
+git switch main
+git pull --ff-only origin main
+git switch -c tim-03/K-R02-sintesis-literatur
+```
+
+Jika review meminta revisi **di PR yang sama**, kembali ke branch PR dan lakukan commit + push lagi. Jangan membuka PR kedua untuk revisi yang sama.
+
+## 7. Mengisi artefak Quarto (`.qmd`)
+
+Artefak mempunyai **YAML front matter** di antara `---`. Contoh struktur (ini ilustrasi, jangan menyalin dengan ID yang bertabrakan):
+
+```yaml
+---
+title: "Membaca Paper secara Kritis"
+id: "K-R01"
+type: knowledge
+theme: "research"
+owner: "Tim 03"
+priority: P0
+status: draft
+ai_usage: "AI membantu menyusun pertanyaan; semua klaim diverifikasi"
+---
+```
+
+Isi bagian di bawah metadata: target pengguna, masalah, konsep, contoh, visual, latihan, asesmen, sumber primer, tinjauan, dan revisi. Contoh jangan mengarang daftar pustaka atau hasil eksperimen. Setiap klaim penting harus dapat dilacak ke sumber asli. Status tetap `draft` sampai reviewer menyetujui dan koordinator menetapkan status berikutnya.
+
+Untuk memeriksa sendiri:
+
+```bash
+python scripts/check_artifacts.py
+python scripts/build_catalog.py
+quarto preview
+```
+
+`quarto preview` memerlukan instalasi Quarto. Tidak semua mahasiswa wajib memasang Quarto jika koordinator menangani pratinjau dan publikasi.
+
+## 8. Alur Issue → PR → Review → Merge
+
+**Penulis:** buka Issue (masalah dan target) → buat branch → buat artefak → verifikasi fakta dan alat AI → jalankan pemeriksaan → ajukan PR; cantumkan `Closes #N` **hanya jika** PR memang menyelesaikan Issue N.
+
+**Reviewer lintas tim:** baca tujuan dan pengguna → periksa referensi dan kebenaran → coba tutorial/prompt/notebook → nilai keterpahaman, etika, dan bukti uji → berikan komentar spesifik, bukan komentar umum seperti “bagus” → setujui atau minta revisi.
+
+**Koordinator:** pastikan review independen tersedia, hasil CI/pemeriksaan berhasil, konten sesuai standar kualitas, lalu merge. Jangan merge artefak yang masih mengandung penanda `[ISI]` kritis tanpa alasan tercatat.
+
+Gunakan templat: `.github/pull_request_template.md`, `templates/peer-review.md`, `templates/user-test.md`, `QUALITY_GATE.md`. **Peer review adalah proses komunikasi KIPP:** kritiklah isi dan bukti, hormati manusianya.
+
+## 9. Forum, kolaborasi, dan TAIDA
+
+- **Discussions:** pertanyaan akademik, debat metode, bantuan belajar, ringkasan hasil belajar.
+- **Issues:** pekerjaan konkret dengan pemilik, target, status, dan bukti selesai.
+- **Pull Requests:** perubahan berkas yang harus diperiksa dan diintegrasikan.
+
+Saat mengajak rekan menggunakan artefak, gunakan TAIDA: **Target** (kompetensi yang dicapai), **Attention** (masalah yang dialami), **Interest** (relevansi), **Desire** (manfaat realistis), **Action** (latihan yang dapat dilakukan). Dokumentasikan satu contoh komunikasi yang Anda revisi setelah memperoleh umpan balik.
+
+## 10. Jika terjadi konflik Git
+
+Konflik muncul saat dua orang mengubah bagian yang sama. **Jangan menggunakan `reset --hard` untuk menyelesaikan konflik** karena dapat membuang pekerjaan.
+
+Langkah aman: komunikasikan dengan anggota lain → `git status` → simpan/cadangkan pekerjaan → minta bantuan koordinator bila diperlukan. Jika branch Anda bersih dan ingin menggabungkan perubahan `main`:
+
+```bash
+git fetch origin
+git merge origin/main
+```
+
+Jika Git menandai konflik, buka file konflik, putuskan isi final bersama rekan (hapus penanda `<<<<<<<`, `=======`, `>>>>>>>`), lalu:
+
+```bash
+git add PATH_KE_FILE_YANG_SUDAH_DIPERBAIKI
+git commit
+git push
+```
+
+Jika tidak yakin, minta pendampingan; jangan hapus berkas atau menimpa sejarah bersama. Jika merge belum selesai dan ingin membatalkannya, `git merge --abort` dapat digunakan bila kondisinya sesuai.
+
+## 11. Pertanyaan yang sering muncul
+
+**Saya tidak bisa push.** Periksa izin akses, branch, login, dan apakah repo menggunakan fork workflow. Hubungi koordinator; jangan meminta kata sandi orang lain.
+
+**PR saya gagal pemeriksaan otomatis.** Baca tab **Checks** atau **Actions**, jalankan `python scripts/check_artifacts.py` dan `python scripts/build_catalog.py`, commit perbaikan pada branch PR, lalu push lagi.
+
+**Berkas saya tidak muncul di website.** Pastikan PR telah di-merge ke `main`, konfigurasi sidebar/katalog sesuai, serta GitHub Actions publikasi berhasil. Artefak yang belum di-merge mungkin hanya dapat dilihat pada branch PR.
+
+**Saya mengunggah kunci API/data sensitif.** Segera beri tahu koordinator; cabut/rotasi kunci yang bocor. Menghapus file saja tidak cukup karena rahasia bisa berada dalam riwayat Git. Koordinator menentukan pemulihan yang aman.
+
+**Dapatkah AI mengerjakan seluruh artefak?** Tidak. AI dapat membantu ide, struktur, bahasa, kode, dan simulasi, tetapi setiap mahasiswa harus memahami, menguji, meninjau, mencatat penggunaannya, dan bertanggung jawab terhadap hasil.
+
+**Bagaimana jika tidak bisa membuat kode?** Anda tetap dapat menghasilkan pengetahuan, tutorial, umpan balik, uji pengguna, visual, forum, dan laporan refleksi melalui browser GitHub.
+
+## 12. Bukti kontribusi individu dan checklist sebelum PR
+
+- [ ] ID dan pemilik artefak sesuai `ARTIFACT_REGISTER.csv`.
+- [ ] Tujuan, pengguna, prasyarat, materi, contoh, latihan, dan ukuran keberhasilan terisi.
+- [ ] Fakta dan sitasi diverifikasi; batasan dan penggunaan AI dicatat.
+- [ ] Tidak ada password, token, data pribadi, atau materi tanpa hak publikasi.
+- [ ] Contoh kode / prompt telah dicoba dan bukti uji dicatat.
+- [ ] `python scripts/check_artifacts.py` sukses.
+- [ ] `python scripts/build_catalog.py` dijalankan dan perubahan katalog ikut di-commit bila ada.
+- [ ] PR menjelaskan tujuan, perubahan, sumber, bukti uji, dan permintaan reviewer lintas tim.
+- [ ] Komentar review ditanggapi dengan tindakan nyata.
+- [ ] Saya mencatat refleksi individu: apa yang saya buat, pelajari, perbaiki, dan kontribusikan kepada orang lain.
+
+**Portofolio individu:** minimal tautan ke Issue/PR/commit atau review yang dapat dilacak, bukti adaptasi komunikasi, serta refleksi penggunaan AI dan tanggung jawab. Simpan dengan `templates/reflection.md` dan arahan dosen.
+
+## 13. Referensi resmi
+
+- [GitHub: Getting started with Git](https://docs.github.com/en/get-started/learning-to-code/getting-started-with-git)
+- [GitHub: Pull Request Quickstart](https://docs.github.com/en/pull-requests/get-started/pull-request-quickstart)
+- [GitHub: Review a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request)
+- [GitHub: Authentication](https://docs.github.com/en/authentication)
+- [Quarto: GitHub Pages](https://quarto.org/docs/publishing/github-pages.html)
+- [GitHub Desktop](https://desktop.github.com/)

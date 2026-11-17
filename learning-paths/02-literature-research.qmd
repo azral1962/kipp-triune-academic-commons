@@ -1,0 +1,37 @@
+---
+title: "Alur Belajar — AI for Literature Research"
+---
+
+# AI for Literature Research
+
+**Durasi:** [ISI estimasi] · **Tingkat:** [ISI] · **Status:** DRAFT
+
+## Sasaran kompetensi
+[ISI satu unjuk kemampuan yang dapat diperiksa oleh rekan.]
+
+## Prasyarat
+[ISI]
+
+## TAIDA sebagai perjalanan pengguna
+
+1. **Target** — [ISI perubahan kompetensi yang terukur].
+2. **Attention** — [ISI masalah atau contoh yang menarik].
+3. **Interest** — [ISI relevansi bagi pengguna].
+4. **Desire** — [ISI manfaat yang realistis].
+5. **Action** — [ISI latihan/unjuk kinerja dan refleksi].
+
+## Urutan artefak
+
+- [K-R01 — Struktur paper dan pembacaan kritis](../topics/02-literature-research/01-knowledge/02-01-01-k-r01.qmd)
+- [K-R02 — Strategi penelusuran dan validasi sumber](../topics/02-literature-research/01-knowledge/02-01-02-k-r02.qmd)
+- [S-R01 — Membaca dan meringkas paper berbantuan AI](../topics/02-literature-research/02-skills/02-02-01-s-r01.qmd)
+- [S-R02 — Matriks literatur dan identifikasi research gap](../topics/02-literature-research/02-skills/02-02-02-s-r02.qmd)
+- [P-R01 — Critical Paper Reader](../topics/02-literature-research/03-ai-prompts/02-03-01-p-r01.qmd)
+- [P-R02 — Literature Comparison and Synthesis](../topics/02-literature-research/03-ai-prompts/02-03-02-p-r02.qmd)
+- [C-R01 — Sintesis lima paper yang terverifikasi](../topics/02-literature-research/04-case-studies/02-04-01-c-r01.qmd)
+
+## Asesmen dan umpan balik
+[ISI tugas integratif dan rubrik; tautkan forum/PR hasil uji.]
+
+## Bukti penggunaan
+[ISI penguji, hasil, revisi, dan batasan.]

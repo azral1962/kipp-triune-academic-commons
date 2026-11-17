@@ -1,0 +1,37 @@
+---
+title: "Alur Belajar — AI for Visualization & Presentation"
+---
+
+# AI for Visualization & Presentation
+
+**Durasi:** [ISI estimasi] · **Tingkat:** [ISI] · **Status:** DRAFT
+
+## Sasaran kompetensi
+[ISI satu unjuk kemampuan yang dapat diperiksa oleh rekan.]
+
+## Prasyarat
+[ISI]
+
+## TAIDA sebagai perjalanan pengguna
+
+1. **Target** — [ISI perubahan kompetensi yang terukur].
+2. **Attention** — [ISI masalah atau contoh yang menarik].
+3. **Interest** — [ISI relevansi bagi pengguna].
+4. **Desire** — [ISI manfaat yang realistis].
+5. **Action** — [ISI latihan/unjuk kinerja dan refleksi].
+
+## Urutan artefak
+
+- [K-V01 — Prinsip komunikasi visual ilmiah](../topics/05-visualization-presentation/01-knowledge/05-01-01-k-v01.qmd)
+- [K-V02 — Presentasi akademik, storytelling, dan TAIDA](../topics/05-visualization-presentation/01-knowledge/05-01-02-k-v02.qmd)
+- [S-V01 — Diagram konsep dan grafik yang benar](../topics/05-visualization-presentation/02-skills/05-02-01-s-v01.qmd)
+- [S-V02 — Presentasi akademik lima menit](../topics/05-visualization-presentation/02-skills/05-02-02-s-v02.qmd)
+- [P-V01 — Scientific Visual Designer](../topics/05-visualization-presentation/03-ai-prompts/05-03-01-p-v01.qmd)
+- [P-V02 — Academic Presentation Coach](../topics/05-visualization-presentation/03-ai-prompts/05-03-02-p-v02.qmd)
+- [C-V01 — Paper menjadi infografik dan presentasi akurat](../topics/05-visualization-presentation/04-case-studies/05-04-01-c-v01.qmd)
+
+## Asesmen dan umpan balik
+[ISI tugas integratif dan rubrik; tautkan forum/PR hasil uji.]
+
+## Bukti penggunaan
+[ISI penguji, hasil, revisi, dan batasan.]

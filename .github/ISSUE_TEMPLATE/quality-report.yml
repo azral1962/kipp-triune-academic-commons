@@ -1,0 +1,20 @@
+name: Laporan perbaikan kualitas
+description: Laporkan ketidakakuratan, aksesibilitas, atau masalah penggunaan
+labels: [quality]
+body:
+  - type: input
+    id: artifact
+    attributes:
+      label: Artefak / URL
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Bukti masalah dan langkah reproduksi
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Perbaikan yang diusulkan

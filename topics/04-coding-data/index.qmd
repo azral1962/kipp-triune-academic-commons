@@ -1,0 +1,23 @@
+---
+title: "AI for Coding & Data Analysis"
+---
+
+# AI for Coding & Data Analysis
+
+**Penanggung jawab:** Tim 07–08.  
+**Status:** rancangan awal / draft.
+
+## Target pengguna
+[ISI hasil wawancara tentang kebutuhan belajar pada tema ini.]
+
+## Daftar artefak berdasarkan prioritas
+
+- [K-C01 — Pemrograman berbantuan AI dan debugging](01-knowledge/04-01-01-k-c01.qmd) · P0 · Tim 07
+- [K-C02 — Analisis data, validasi, dan reproduksibilitas](01-knowledge/04-01-02-k-c02.qmd) · P0 · Tim 08
+- [S-C01 — Notebook Python dari masalah ke pengujian](02-skills/04-02-01-s-c01.qmd) · P1 · Tim 07
+- [S-C02 — Notebook Pandas dan Matplotlib](02-skills/04-02-02-s-c02.qmd) · P1 · Tim 08
+- [P-C01 — Coding Tutor and Debugging Assistant](03-ai-prompts/04-03-01-p-c01.qmd) · P1 · Tim 07
+- [P-C02 — Data Analysis and Result Verification](03-ai-prompts/04-03-02-p-c02.qmd) · P1 · Tim 08
+- [C-C01 — Analisis dataset akademik dengan verifikasi](04-case-studies/04-04-01-c-c01.qmd) · P2 · Tim 07+08
+
+Lihat [alur belajar tema ini](../../learning-paths/04-coding-data.qmd).

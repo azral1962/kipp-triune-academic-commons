@@ -1,0 +1,50 @@
+---
+title: "Katalog 42 Artefak"
+---
+
+> Semua entri awalnya **DRAFT**. Status harus diperbarui setelah review dan uji pengguna.
+
+| Indeks | ID tetap | Artefak | Tema | Jenis | Prioritas | Tim | Status |
+|---|---|---|---|---|---|---|---|
+| 01.01.01 | K-L01 | [Prinsip belajar efektif menggunakan AI](topics/01-ai-learning/01-knowledge/01-01-01-k-l01.qmd) | AI for Learning | knowledge | P0 | Tim 01 | draft |
+| 01.01.02 | K-L02 | [Metakognisi, belajar aktif, dan uji pemahaman](topics/01-ai-learning/01-knowledge/01-01-02-k-l02.qmd) | AI for Learning | knowledge | P0 | Tim 02 | draft |
+| 01.02.01 | S-L01 | [Belajar satu konsep sulit dengan bantuan AI](topics/01-ai-learning/02-skills/01-02-01-s-l01.qmd) | AI for Learning | skills | P1 | Tim 01 | draft |
+| 01.02.02 | S-L02 | [Membuat latihan, kuis, dan umpan balik formatif](topics/01-ai-learning/02-skills/01-02-02-s-l02.qmd) | AI for Learning | skills | P1 | Tim 02 | draft |
+| 01.03.01 | P-L01 | [Socratic AI Tutor](topics/01-ai-learning/03-ai-prompts/01-03-01-p-l01.qmd) | AI for Learning | prompts | P1 | Tim 01 | draft |
+| 01.03.02 | P-L02 | [Penguji pemahaman dan miskonsepsi](topics/01-ai-learning/03-ai-prompts/01-03-02-p-l02.qmd) | AI for Learning | prompts | P1 | Tim 02 | draft |
+| 01.04.01 | C-L01 | [Mengukur peningkatan pemahaman satu konsep](topics/01-ai-learning/04-case-studies/01-04-01-c-l01.qmd) | AI for Learning | cases | P2 | Tim 01+02 | draft |
+| 02.01.01 | K-R01 | [Struktur paper dan pembacaan kritis](topics/02-literature-research/01-knowledge/02-01-01-k-r01.qmd) | AI for Literature Research | knowledge | P0 | Tim 03 | draft |
+| 02.01.02 | K-R02 | [Strategi penelusuran dan validasi sumber](topics/02-literature-research/01-knowledge/02-01-02-k-r02.qmd) | AI for Literature Research | knowledge | P0 | Tim 04 | draft |
+| 02.02.01 | S-R01 | [Membaca dan meringkas paper berbantuan AI](topics/02-literature-research/02-skills/02-02-01-s-r01.qmd) | AI for Literature Research | skills | P1 | Tim 03 | draft |
+| 02.02.02 | S-R02 | [Matriks literatur dan identifikasi research gap](topics/02-literature-research/02-skills/02-02-02-s-r02.qmd) | AI for Literature Research | skills | P1 | Tim 04 | draft |
+| 02.03.01 | P-R01 | [Critical Paper Reader](topics/02-literature-research/03-ai-prompts/02-03-01-p-r01.qmd) | AI for Literature Research | prompts | P1 | Tim 03 | draft |
+| 02.03.02 | P-R02 | [Literature Comparison and Synthesis](topics/02-literature-research/03-ai-prompts/02-03-02-p-r02.qmd) | AI for Literature Research | prompts | P1 | Tim 04 | draft |
+| 02.04.01 | C-R01 | [Sintesis lima paper yang terverifikasi](topics/02-literature-research/04-case-studies/02-04-01-c-r01.qmd) | AI for Literature Research | cases | P2 | Tim 03+04 | draft |
+| 03.01.01 | K-W01 | [Struktur karya ilmiah dan argumentasi](topics/03-academic-writing/01-knowledge/03-01-01-k-w01.qmd) | AI for Academic Writing | knowledge | P0 | Tim 05 | draft |
+| 03.01.02 | K-W02 | [Integritas akademik, sitasi, dan atribusi AI](topics/03-academic-writing/01-knowledge/03-01-02-k-w02.qmd) | AI for Academic Writing | knowledge | P0 | Tim 06 | draft |
+| 03.02.01 | S-W01 | [Membuat outline dari pertanyaan penelitian](topics/03-academic-writing/02-skills/03-02-01-s-w01.qmd) | AI for Academic Writing | skills | P1 | Tim 05 | draft |
+| 03.02.02 | S-W02 | [Revisi paragraf, koherensi, dan argumentasi](topics/03-academic-writing/02-skills/03-02-02-s-w02.qmd) | AI for Academic Writing | skills | P1 | Tim 06 | draft |
+| 03.03.01 | P-W01 | [Academic Outline Coach](topics/03-academic-writing/03-ai-prompts/03-03-01-p-w01.qmd) | AI for Academic Writing | prompts | P1 | Tim 05 | draft |
+| 03.03.02 | P-W02 | [Critical Writing Reviewer](topics/03-academic-writing/03-ai-prompts/03-03-02-p-w02.qmd) | AI for Academic Writing | prompts | P1 | Tim 06 | draft |
+| 03.04.01 | C-W01 | [Revisi draf dengan jejak perbaikan](topics/03-academic-writing/04-case-studies/03-04-01-c-w01.qmd) | AI for Academic Writing | cases | P2 | Tim 05+06 | draft |
+| 04.01.01 | K-C01 | [Pemrograman berbantuan AI dan debugging](topics/04-coding-data/01-knowledge/04-01-01-k-c01.qmd) | AI for Coding & Data Analysis | knowledge | P0 | Tim 07 | draft |
+| 04.01.02 | K-C02 | [Analisis data, validasi, dan reproduksibilitas](topics/04-coding-data/01-knowledge/04-01-02-k-c02.qmd) | AI for Coding & Data Analysis | knowledge | P0 | Tim 08 | draft |
+| 04.02.01 | S-C01 | [Notebook Python dari masalah ke pengujian](topics/04-coding-data/02-skills/04-02-01-s-c01.qmd) | AI for Coding & Data Analysis | skills | P1 | Tim 07 | draft |
+| 04.02.02 | S-C02 | [Notebook Pandas dan Matplotlib](topics/04-coding-data/02-skills/04-02-02-s-c02.qmd) | AI for Coding & Data Analysis | skills | P1 | Tim 08 | draft |
+| 04.03.01 | P-C01 | [Coding Tutor and Debugging Assistant](topics/04-coding-data/03-ai-prompts/04-03-01-p-c01.qmd) | AI for Coding & Data Analysis | prompts | P1 | Tim 07 | draft |
+| 04.03.02 | P-C02 | [Data Analysis and Result Verification](topics/04-coding-data/03-ai-prompts/04-03-02-p-c02.qmd) | AI for Coding & Data Analysis | prompts | P1 | Tim 08 | draft |
+| 04.04.01 | C-C01 | [Analisis dataset akademik dengan verifikasi](topics/04-coding-data/04-case-studies/04-04-01-c-c01.qmd) | AI for Coding & Data Analysis | cases | P2 | Tim 07+08 | draft |
+| 05.01.01 | K-V01 | [Prinsip komunikasi visual ilmiah](topics/05-visualization-presentation/01-knowledge/05-01-01-k-v01.qmd) | AI for Visualization & Presentation | knowledge | P0 | Tim 09 | draft |
+| 05.01.02 | K-V02 | [Presentasi akademik, storytelling, dan TAIDA](topics/05-visualization-presentation/01-knowledge/05-01-02-k-v02.qmd) | AI for Visualization & Presentation | knowledge | P0 | Tim 10 | draft |
+| 05.02.01 | S-V01 | [Diagram konsep dan grafik yang benar](topics/05-visualization-presentation/02-skills/05-02-01-s-v01.qmd) | AI for Visualization & Presentation | skills | P1 | Tim 09 | draft |
+| 05.02.02 | S-V02 | [Presentasi akademik lima menit](topics/05-visualization-presentation/02-skills/05-02-02-s-v02.qmd) | AI for Visualization & Presentation | skills | P1 | Tim 10 | draft |
+| 05.03.01 | P-V01 | [Scientific Visual Designer](topics/05-visualization-presentation/03-ai-prompts/05-03-01-p-v01.qmd) | AI for Visualization & Presentation | prompts | P1 | Tim 09 | draft |
+| 05.03.02 | P-V02 | [Academic Presentation Coach](topics/05-visualization-presentation/03-ai-prompts/05-03-02-p-v02.qmd) | AI for Visualization & Presentation | prompts | P1 | Tim 10 | draft |
+| 05.04.01 | C-V01 | [Paper menjadi infografik dan presentasi akurat](topics/05-visualization-presentation/04-case-studies/05-04-01-c-v01.qmd) | AI for Visualization & Presentation | cases | P2 | Tim 09+10 | draft |
+| 06.01.01 | K-P01 | [Problem framing dan identifikasi kebutuhan](topics/06-academic-problem-solving/01-knowledge/06-01-01-k-p01.qmd) | AI for Academic Problem Solving | knowledge | P0 | Tim 11 | draft |
+| 06.01.02 | K-P02 | [Alternatif solusi, keputusan, dan evaluasi nilai](topics/06-academic-problem-solving/01-knowledge/06-01-02-k-p02.qmd) | AI for Academic Problem Solving | knowledge | P0 | Tim 12 | draft |
+| 06.02.01 | S-P01 | [Analisis masalah berbantuan AI](topics/06-academic-problem-solving/02-skills/06-02-01-s-p01.qmd) | AI for Academic Problem Solving | skills | P1 | Tim 11 | draft |
+| 06.02.02 | S-P02 | [Decision matrix, simulasi, dan risiko](topics/06-academic-problem-solving/02-skills/06-02-02-s-p02.qmd) | AI for Academic Problem Solving | skills | P1 | Tim 12 | draft |
+| 06.03.01 | P-P01 | [Problem Framing and Root Cause Analyst](topics/06-academic-problem-solving/03-ai-prompts/06-03-01-p-p01.qmd) | AI for Academic Problem Solving | prompts | P1 | Tim 11 | draft |
+| 06.03.02 | P-P02 | [Solution Critic and Decision Support](topics/06-academic-problem-solving/03-ai-prompts/06-03-02-p-p02.qmd) | AI for Academic Problem Solving | prompts | P1 | Tim 12 | draft |
+| 06.04.01 | C-P01 | [Solusi untuk masalah nyata kehidupan akademik](topics/06-academic-problem-solving/04-case-studies/06-04-01-c-p01.qmd) | AI for Academic Problem Solving | cases | P2 | Tim 11+12 | draft |

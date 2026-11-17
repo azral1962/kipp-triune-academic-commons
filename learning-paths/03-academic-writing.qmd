@@ -1,0 +1,37 @@
+---
+title: "Alur Belajar — AI for Academic Writing"
+---
+
+# AI for Academic Writing
+
+**Durasi:** [ISI estimasi] · **Tingkat:** [ISI] · **Status:** DRAFT
+
+## Sasaran kompetensi
+[ISI satu unjuk kemampuan yang dapat diperiksa oleh rekan.]
+
+## Prasyarat
+[ISI]
+
+## TAIDA sebagai perjalanan pengguna
+
+1. **Target** — [ISI perubahan kompetensi yang terukur].
+2. **Attention** — [ISI masalah atau contoh yang menarik].
+3. **Interest** — [ISI relevansi bagi pengguna].
+4. **Desire** — [ISI manfaat yang realistis].
+5. **Action** — [ISI latihan/unjuk kinerja dan refleksi].
+
+## Urutan artefak
+
+- [K-W01 — Struktur karya ilmiah dan argumentasi](../topics/03-academic-writing/01-knowledge/03-01-01-k-w01.qmd)
+- [K-W02 — Integritas akademik, sitasi, dan atribusi AI](../topics/03-academic-writing/01-knowledge/03-01-02-k-w02.qmd)
+- [S-W01 — Membuat outline dari pertanyaan penelitian](../topics/03-academic-writing/02-skills/03-02-01-s-w01.qmd)
+- [S-W02 — Revisi paragraf, koherensi, dan argumentasi](../topics/03-academic-writing/02-skills/03-02-02-s-w02.qmd)
+- [P-W01 — Academic Outline Coach](../topics/03-academic-writing/03-ai-prompts/03-03-01-p-w01.qmd)
+- [P-W02 — Critical Writing Reviewer](../topics/03-academic-writing/03-ai-prompts/03-03-02-p-w02.qmd)
+- [C-W01 — Revisi draf dengan jejak perbaikan](../topics/03-academic-writing/04-case-studies/03-04-01-c-w01.qmd)
+
+## Asesmen dan umpan balik
+[ISI tugas integratif dan rubrik; tautkan forum/PR hasil uji.]
+
+## Bukti penggunaan
+[ISI penguji, hasil, revisi, dan batasan.]

@@ -1,0 +1,43 @@
+---
+title: "Presentasi akademik, storytelling, dan TAIDA"
+id: "K-V02"
+index_code: "05.01.02"
+type: "knowledge"
+theme: "visualization"
+owner: "Tim 10"
+priority: P0
+status: draft
+ai_usage: "Belum diisi; wajib dijelaskan sebelum review"
+---
+
+## Sasaran pembelajaran
+[ISI: peserta mampu menjelaskan **presentasi akademik, storytelling, dan taida** dan memeriksa contoh.]
+
+## Masalah dan relevansi
+[ISI: kesulitan akademik nyata yang dialami pengguna.]
+
+## Konsep inti
+[ISI: definisi, istilah, batasan, contoh, serta miskonsepsi.]
+
+## Peta konsep atau visual
+[ISI: diagram hasil karya dan caption, bila relevan.]
+
+## Contoh penerapan
+[ISI: contoh konkret, langkah demi langkah.]
+
+## Latihan dan uji pemahaman
+[ISI: 2 pertanyaan dengan kunci/indikator benar.]
+
+## Referensi terverifikasi
+[ISI: sumber asli dengan tautan/DOI dan bagian yang mendukung.]
+
+## Catatan penggunaan AI dan etika
+[ISI: peran AI, model/alur jika diketahui, pengecekan manusia, data yang tidak dibagikan.]
+
+## Peer review, uji pengguna, dan refleksi
+- Reviewer dari tim lain: [ISI]
+- Bukti uji: [ISI]
+- Temuan dan revisi: [ISI]
+- Tautan PR/Issue: [ISI]
+
+> **Status DRAFT:** berkas ini merupakan kerangka awal. Belum ada validasi isi atau pengujian oleh mahasiswa.

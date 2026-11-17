@@ -1,0 +1,10 @@
+# User Test — [ID Artefak]
+Penguji luar tim (boleh anonim): [ISI] | Tanggal: [ISI]
+
+**Tujuan tugas:** [ISI]
+**Kondisi awal (baseline):** [ISI]
+**Langkah yang diuji:** [ISI]
+**Hasil dan bukti:** [ISI]
+**Apa yang membingungkan:** [ISI]
+**Perubahan yang dilakukan:** [ISI]
+**Izin untuk mendokumentasikan:** [ISI]

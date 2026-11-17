@@ -1,0 +1,37 @@
+---
+title: "Alur Belajar — AI for Academic Problem Solving"
+---
+
+# AI for Academic Problem Solving
+
+**Durasi:** [ISI estimasi] · **Tingkat:** [ISI] · **Status:** DRAFT
+
+## Sasaran kompetensi
+[ISI satu unjuk kemampuan yang dapat diperiksa oleh rekan.]
+
+## Prasyarat
+[ISI]
+
+## TAIDA sebagai perjalanan pengguna
+
+1. **Target** — [ISI perubahan kompetensi yang terukur].
+2. **Attention** — [ISI masalah atau contoh yang menarik].
+3. **Interest** — [ISI relevansi bagi pengguna].
+4. **Desire** — [ISI manfaat yang realistis].
+5. **Action** — [ISI latihan/unjuk kinerja dan refleksi].
+
+## Urutan artefak
+
+- [K-P01 — Problem framing dan identifikasi kebutuhan](../topics/06-academic-problem-solving/01-knowledge/06-01-01-k-p01.qmd)
+- [K-P02 — Alternatif solusi, keputusan, dan evaluasi nilai](../topics/06-academic-problem-solving/01-knowledge/06-01-02-k-p02.qmd)
+- [S-P01 — Analisis masalah berbantuan AI](../topics/06-academic-problem-solving/02-skills/06-02-01-s-p01.qmd)
+- [S-P02 — Decision matrix, simulasi, dan risiko](../topics/06-academic-problem-solving/02-skills/06-02-02-s-p02.qmd)
+- [P-P01 — Problem Framing and Root Cause Analyst](../topics/06-academic-problem-solving/03-ai-prompts/06-03-01-p-p01.qmd)
+- [P-P02 — Solution Critic and Decision Support](../topics/06-academic-problem-solving/03-ai-prompts/06-03-02-p-p02.qmd)
+- [C-P01 — Solusi untuk masalah nyata kehidupan akademik](../topics/06-academic-problem-solving/04-case-studies/06-04-01-c-p01.qmd)
+
+## Asesmen dan umpan balik
+[ISI tugas integratif dan rubrik; tautkan forum/PR hasil uji.]
+
+## Bukti penggunaan
+[ISI penguji, hasil, revisi, dan batasan.]

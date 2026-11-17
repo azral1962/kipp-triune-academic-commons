@@ -1,0 +1,23 @@
+---
+title: "AI for Literature Research"
+---
+
+# AI for Literature Research
+
+**Penanggung jawab:** Tim 03–04.  
+**Status:** rancangan awal / draft.
+
+## Target pengguna
+[ISI hasil wawancara tentang kebutuhan belajar pada tema ini.]
+
+## Daftar artefak berdasarkan prioritas
+
+- [K-R01 — Struktur paper dan pembacaan kritis](01-knowledge/02-01-01-k-r01.qmd) · P0 · Tim 03
+- [K-R02 — Strategi penelusuran dan validasi sumber](01-knowledge/02-01-02-k-r02.qmd) · P0 · Tim 04
+- [S-R01 — Membaca dan meringkas paper berbantuan AI](02-skills/02-02-01-s-r01.qmd) · P1 · Tim 03
+- [S-R02 — Matriks literatur dan identifikasi research gap](02-skills/02-02-02-s-r02.qmd) · P1 · Tim 04
+- [P-R01 — Critical Paper Reader](03-ai-prompts/02-03-01-p-r01.qmd) · P1 · Tim 03
+- [P-R02 — Literature Comparison and Synthesis](03-ai-prompts/02-03-02-p-r02.qmd) · P1 · Tim 04
+- [C-R01 — Sintesis lima paper yang terverifikasi](04-case-studies/02-04-01-c-r01.qmd) · P2 · Tim 03+04
+
+Lihat [alur belajar tema ini](../../learning-paths/02-literature-research.qmd).

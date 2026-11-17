@@ -1,0 +1,12 @@
+---
+title: "Enam Alur Belajar"
+---
+
+Setiap alur menghubungkan pengetahuan → tutorial → prompt → kasus, dengan praktik TAIDA, tugas, dan peer review.
+
+- [AI for Learning](01-ai-learning.qmd) — Tim 01–02
+- [AI for Literature Research](02-literature-research.qmd) — Tim 03–04
+- [AI for Academic Writing](03-academic-writing.qmd) — Tim 05–06
+- [AI for Coding & Data Analysis](04-coding-data.qmd) — Tim 07–08
+- [AI for Visualization & Presentation](05-visualization-presentation.qmd) — Tim 09–10
+- [AI for Academic Problem Solving](06-academic-problem-solving.qmd) — Tim 11–12

@@ -1,0 +1,43 @@
+---
+title: "Analisis dataset akademik dengan verifikasi"
+id: "C-C01"
+index_code: "04.04.01"
+type: "cases"
+theme: "coding-data"
+owner: "Tim 07+08"
+priority: P2
+status: draft
+ai_usage: "Belum diisi; wajib dijelaskan sebelum review"
+---
+
+## Masalah nyata dan siapa pengguna
+[ISI: **Analisis dataset akademik dengan verifikasi**, konteks, persetujuan pengguna, dan observasi.]
+
+## Target dan ukuran keberhasilan
+[ISI: kondisi awal, target hasil, kriteria nyata.]
+
+## Artefak yang digunakan
+[ISI: tautan ke knowledge, skill, prompt, visual, notebook, dan forum.]
+
+## Alternatif dan keputusan
+[ISI: opsi, risiko, biaya/manfaat, alasan pilihan.]
+
+## Proses pengujian dan data
+[ISI: percobaan yang dapat direproduksi dan keterbatasan.]
+
+## TAIDA, nilai, dan dampak
+[ISI: perubahan kesadaran hingga tindakan, plus kualitas relasi.]
+
+## Evaluasi dan tindak lanjut
+[ISI: bukti hasil, umpan balik, revisi berikutnya.]
+
+## Catatan penggunaan AI dan etika
+[ISI: peran AI, model/alur jika diketahui, pengecekan manusia, data yang tidak dibagikan.]
+
+## Peer review, uji pengguna, dan refleksi
+- Reviewer dari tim lain: [ISI]
+- Bukti uji: [ISI]
+- Temuan dan revisi: [ISI]
+- Tautan PR/Issue: [ISI]
+
+> **Status DRAFT:** berkas ini merupakan kerangka awal. Belum ada validasi isi atau pengujian oleh mahasiswa.

@@ -1,0 +1,31 @@
+---
+title: "[ISI JUDUL]"
+id: "[ISI ID]"
+type: cases
+theme: "[ISI TEMA]"
+owner: "[ISI TIM]"
+priority: P2
+status: draft
+ai_usage: "[ISI]"
+---
+
+## Konteks dan pengguna
+[ISI]
+
+## Masalah, bukti, dan target keberhasilan
+[ISI baseline dan tolok ukur]
+
+## Alternatif solusi dan keputusan
+[ISI]
+
+## Artefak yang digunakan
+[ISI tautan knowledge, skill, prompt, notebook/visual]
+
+## Skenario uji dan hasil
+[ISI data, pengujian, kegagalan]
+
+## Evaluasi nilai, komunikasi TAIDA, dan refleksi
+[ISI hasil bagi pengguna dan kondisi relasi]
+
+## Sumber dan review independen
+[ISI]

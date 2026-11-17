@@ -1,0 +1,12 @@
+---
+title: "Forum dan Peer Review"
+---
+
+Diskusi akademik dikelola melalui **GitHub Discussions** pada repositori kelas (aktifkan pada GitHub Settings).
+
+- **Q&A:** pertanyaan konkret yang dapat dijawab dan diverifikasi.
+- **Ideas:** usulan materi dan perbaikan.
+- **Show & Tell:** berbagi artefak yang siap diuji.
+- **Review Notes:** rangkuman kritik, keputusan, dan tindak lanjut.
+
+Baca [`Panduan Forum`](forum-guide.md). Link Discussion repositori perlu ditambahkan koordinator setelah repositori dibuat.

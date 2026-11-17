@@ -1,0 +1,37 @@
+---
+title: "Alur Belajar — AI for Learning"
+---
+
+# AI for Learning
+
+**Durasi:** [ISI estimasi] · **Tingkat:** [ISI] · **Status:** DRAFT
+
+## Sasaran kompetensi
+[ISI satu unjuk kemampuan yang dapat diperiksa oleh rekan.]
+
+## Prasyarat
+[ISI]
+
+## TAIDA sebagai perjalanan pengguna
+
+1. **Target** — [ISI perubahan kompetensi yang terukur].
+2. **Attention** — [ISI masalah atau contoh yang menarik].
+3. **Interest** — [ISI relevansi bagi pengguna].
+4. **Desire** — [ISI manfaat yang realistis].
+5. **Action** — [ISI latihan/unjuk kinerja dan refleksi].
+
+## Urutan artefak
+
+- [K-L01 — Prinsip belajar efektif menggunakan AI](../topics/01-ai-learning/01-knowledge/01-01-01-k-l01.qmd)
+- [K-L02 — Metakognisi, belajar aktif, dan uji pemahaman](../topics/01-ai-learning/01-knowledge/01-01-02-k-l02.qmd)
+- [S-L01 — Belajar satu konsep sulit dengan bantuan AI](../topics/01-ai-learning/02-skills/01-02-01-s-l01.qmd)
+- [S-L02 — Membuat latihan, kuis, dan umpan balik formatif](../topics/01-ai-learning/02-skills/01-02-02-s-l02.qmd)
+- [P-L01 — Socratic AI Tutor](../topics/01-ai-learning/03-ai-prompts/01-03-01-p-l01.qmd)
+- [P-L02 — Penguji pemahaman dan miskonsepsi](../topics/01-ai-learning/03-ai-prompts/01-03-02-p-l02.qmd)
+- [C-L01 — Mengukur peningkatan pemahaman satu konsep](../topics/01-ai-learning/04-case-studies/01-04-01-c-l01.qmd)
+
+## Asesmen dan umpan balik
+[ISI tugas integratif dan rubrik; tautkan forum/PR hasil uji.]
+
+## Bukti penggunaan
+[ISI penguji, hasil, revisi, dan batasan.]

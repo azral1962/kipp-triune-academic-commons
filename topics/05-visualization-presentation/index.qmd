@@ -1,0 +1,23 @@
+---
+title: "AI for Visualization & Presentation"
+---
+
+# AI for Visualization & Presentation
+
+**Penanggung jawab:** Tim 09–10.  
+**Status:** rancangan awal / draft.
+
+## Target pengguna
+[ISI hasil wawancara tentang kebutuhan belajar pada tema ini.]
+
+## Daftar artefak berdasarkan prioritas
+
+- [K-V01 — Prinsip komunikasi visual ilmiah](01-knowledge/05-01-01-k-v01.qmd) · P0 · Tim 09
+- [K-V02 — Presentasi akademik, storytelling, dan TAIDA](01-knowledge/05-01-02-k-v02.qmd) · P0 · Tim 10
+- [S-V01 — Diagram konsep dan grafik yang benar](02-skills/05-02-01-s-v01.qmd) · P1 · Tim 09
+- [S-V02 — Presentasi akademik lima menit](02-skills/05-02-02-s-v02.qmd) · P1 · Tim 10
+- [P-V01 — Scientific Visual Designer](03-ai-prompts/05-03-01-p-v01.qmd) · P1 · Tim 09
+- [P-V02 — Academic Presentation Coach](03-ai-prompts/05-03-02-p-v02.qmd) · P1 · Tim 10
+- [C-V01 — Paper menjadi infografik dan presentasi akurat](04-case-studies/05-04-01-c-v01.qmd) · P2 · Tim 09+10
+
+Lihat [alur belajar tema ini](../../learning-paths/05-visualization-presentation.qmd).

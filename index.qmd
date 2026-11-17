@@ -1,0 +1,24 @@
+---
+title: "Beranda"
+---
+
+# Selamat datang di KIPP Triune Academic Commons
+
+**AI for Academic Work | Pilot 21 hari | 12 tim | 6 tema**
+
+> Repositori ini masih dalam tahap **pengembangan dan peer review**. Halaman artefak yang berstatus *draft* adalah kerangka isian, bukan materi yang sudah divalidasi.
+
+## Mulai di sini
+
+1. Lihat [Katalog 42 Artefak](catalog.qmd).
+2. Pilih [Alur Belajar](learning-paths/index.qmd) yang relevan.
+3. Buka modul, tutorial, prompt dan kasus yang terhubung.
+4. Diskusikan atau ajukan perbaikan melalui [Forum](forum/index.qmd).
+
+## Prinsip proyek
+
+**Individual** — setiap orang belajar dan mencipta.  
+**Collective** — komunitas menguji dan memperbaiki.  
+**Artificial** — AI membantu, manusia bertanggung jawab.
+
+Keberhasilan adalah perubahan pemahaman, kompetensi, dan nilai yang dirasakan pengguna, bukan jumlah halaman semata.
