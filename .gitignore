@@ -9,5 +9,6 @@ __pycache__/
 .DS_Store
 _public/
 
+personal/
 /.quarto/
 **/*.quarto_ipynb
